@@ -1,0 +1,14 @@
+.boton {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgba(16, 116, 156, 0.706);
+    font-weight: bold;
+    box-shadow: 2px 3px 8px rgb(0, 0, 0, 0.5);
+    border: 2px solid goldenrod
+}
