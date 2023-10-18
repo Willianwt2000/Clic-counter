@@ -48,10 +48,11 @@ h1 {
 }
 
 .contenedor-principal {
+    height: 550px;
+    min-width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 10px;
 }

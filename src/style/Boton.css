@@ -1,14 +1,33 @@
-.boton {
-    width: 150px;
+button {
+    width: 250px;
     height: 50px;
     border-radius: 10px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     font-size: 1.5rem;
-    background-color: rgba(16, 116, 156, 0.706);
     font-weight: bold;
     box-shadow: 2px 3px 8px rgb(0, 0, 0, 0.5);
-    border: 2px solid goldenrod
+    border: 2px solid goldenrod;
+    transition: all 2s;
+    user-select: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+
+button:hover {
+    transform: scale(1.1);
+    background-color: blueviolet;
+}
+
+.boton-clic {
+    background-color: #36af36;
+}
+.boton-reiniciar {
+    background-color: rgba(16, 116, 156, 0.706);;
 }
